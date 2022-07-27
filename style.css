@@ -25,9 +25,14 @@
     background: rgba(0, 0, 0, 0.6); /*can be anything, of course*/
 }
 
+.link {
+    user-select: none;
+}
+
 #mode {
     height: 25px;
     width: 25px;
+    user-select: none;
 }
 
 #mode:active {
@@ -37,6 +42,7 @@
 
 #imgpc{
     animation: fadeInUp 1s linear;
+    user-select: none;
 }
 
 @keyframes fadeInUp {
